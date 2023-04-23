@@ -19,9 +19,9 @@ require('dotenv').config()
 
 //_______________________ ┏  Main Setting  ┓ _______________________\\
 
-creator = 'HilmySakti' // Nama 
+creator = 'RamaAgung' // Nama 
 port = 8080 //port host
-LimitApikey = 100 // Limit Apikey default
+LimitApikey = 10000 // Limit Apikey default
 
 //___________ ┏  Database Mongodb Setting  ┓ ___________\\
 
@@ -35,7 +35,7 @@ servicesmtp = 'Gmail'//Ada gmail ada sendinblue ikut masing2 limit gmail 500 lim
 sendemail = process.env.sendemail //Email SMTP
 fromsendemail = process.env.fromsendemail // From Email SMTP *kalau takde custom email kena sama email dengan Email SMTP
 sendpwmail = process.env.sendpwmail // Password Email SMTP
-domain = 'api.skayx.my.id'// domain website tanpa http or https
+domain = 'leomganz.eu.org'// domain website tanpa http or https
 
 //_______________________ ┏  Apikey  ┓ _______________________\\
 
